@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background */
+    color: #f0f0f0; /* Light gray text color for readability */
+}
+
+header {
+    background: #1a73e8; /* Bright blue header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-photo {
+    width: 250px;
+    border-radius: 20%;
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #f0f0f0; /* Contact link color */
+    text-decoration: none;
+}
+
+nav {
+    background: #4285f4; /* Google blue for navigation */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffeb3b; /* Bright yellow on hover */
+}
+
+section {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 800px;
+    background: #121212; /* Dark gray background for sections */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1); /* Light shadow */
+}
+
+h2 {
+    color: #1a73e8; /* Bright blue for section titles */
+}
+
+.skill-card {
+    background: #2c2c2c; /* Darker gray for skill cards */
+    border: 1px solid #1a73e8; /* Bright blue border */
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px 0;
+    transition: background 0.3s;
+}
+
+.skill-card:hover {
+    background: #333; /* Slightly lighter on hover */
+}
+
+.contact {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 800px;
+    background: #121212; /* Dark gray background */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1); /* Light shadow */
+}
+
+.contact h2 {
+    color: #1a73e8; /* Bright blue for section title */
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between form elements */
+}
+
+.contact label {
+    font-weight: bold;
+    color: #1a73e8; /* Bright blue for labels */
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #2c2c2c; /* Darker background for input fields */
+    color: #f0f0f0; /* Light text color */
+}
+
+.contact input:focus, .contact textarea:focus {
+    border-color: #1a73e8; /* Bright blue border on focus */
+}
+
+.contact button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #1a73e8; /* Bright blue button */
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact button:hover {
+    background: #ffeb3b; /* Bright yellow on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #1a73e8; /* Bright blue footer */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
